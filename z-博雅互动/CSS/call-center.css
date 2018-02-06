@@ -1,0 +1,68 @@
+.row1{background: #191D3A;height: 60px;}
+.navbar-brand{width: 225px;}
+.navbar-brand img{margin: -5px 0 0 20px;}
+
+/*导航过手效果*/
+/*.head li:focus, .head>li:hover{background:yellow;}*/
+.head li:hover{background:#191D3A;}
+.head li:hover a{color: white;}
+.head li a:hover{color: white!important;}
+.head>li:focus, .head>li:hover{background:#191D3A;color: white;}
+/*右边*/
+.right li:hover{background:#191D3A;}
+.right li:hover a{color: #38b774;}
+.right li a:hover{color: #38b774!important;}
+.right>li:focus, .head>li:hover{background:#191D3A;color: #38b774;}
+/**/
+
+
+/*加入我们*/
+.joinus{width:100px;margin: 12px 0 0 10px;height: 32px;line-height: 32px;display: inline-block;
+    border: 1px solid #3aca7a;border-radius: 3px;background: #38b774;text-align: center;}
+
+
+.NAV li{background:#191D3A;z-index: 50;border-bottom: 1px solid #191D3A;}
+.nav li{height: 58px;}
+.nav li a{height:58px;border-left: 1px solid #252947;border-right: 1px solid #252947;margin-right: -1px;
+    text-align: left;line-height: 30px;color: #818496;}
+
+/**/
+.H2 h2{line-height: 29px;font-size: 20px;color: #444866;padding-left: 30px;height: 29px;
+background:url("../image/call-center/location.png")no-repeat 0 -44px;font-weight: bold;background-position: 0 -188px;}
+.small-a{vertical-align: middle;display:inline-block;width: 20px;height: 20px;background:url("../image/call-center/home.png")no-repeat center 3px;}
+.A{display: inline-block;width: 4px;height: 8px;line-height: 8px;margin: 0 7px;background: url(../image/call-center/icon.png) no-repeat 0 -150px;;}
+.H2 h2 small label{display: inline-block;vertical-align: middle;margin-bottom: 0px;}
+.ROW{display:inline-block;background-color: #f1f1f1;text-align: center;width: 38px;height: 68px;
+    background: url(../image/call-center/faqicon.png) no-repeat;padding-right: 12px;}
+.ROW1{display:inline-block;background-color: #f1f1f1;text-align: center;width: 60px;height: 68px;
+    background: url(../image/call-center/faqicon.png) no-repeat;padding-right: 12px;background-position: 0 -202px;}
+.ROW2{display:inline-block;background-color: #f1f1f1;text-align: center;width: 60px;height: 68px;
+    background: url(../image/call-center/faqicon.png) no-repeat;padding-right: 12px;background-position: 0 -136px;}
+.DIV div{padding: 0;}
+.DIV div a{border-radius: 0px;text-decoration: none;}
+
+/*4*2 过手效果*/
+.DIV div a:hover{background: #f1f1f1;font-weight: bold;}
+.DIV div a:hover h5{font-weight: bold;}
+/*.DIV div a h5:hover{background: #f1f1f1;font-weight: bold;color: pink!important;}*/
+/* .DIV>div>a>h5:focus, .DIV>div>a>h5:hover{font-weight: bold;background: #f1f1f1;} *//*要与不要都不影响*/
+
+
+/*字体的媒体查询   and后面必须空格*/
+@media only screen and (min-width: 0)and (max-width: 768px){
+	.media div a h1{font-size: 18px!important}
+}
+@media only screen and (min-width: 768px)and (max-width: 992px){
+	.media div a h1{font-size: 18px!important}
+}
+@media only screen and (min-width: 992px){
+	.media div a h1{font-size: 24px!important}
+}
+
+
+.Style{text-align: center;margin-bottom:0;}
+/*.DIV div a:hover h5{color:pink;}*/
+
+
+/*小版权*/
+.p1 a{color: #abafd0;}

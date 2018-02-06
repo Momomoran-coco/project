@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <title>博雅互动</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css
+	" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css " integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<!-- 导航条 -->
+<nav class="navbar navbar-default" style="background: #191D3A;border-radius: 0%;     margin-bottom:0px;border:none;">
+  <div class="container" style="height: 60px;">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="image/logo.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav head hidden-sm NAV">
+        <li style="background:#252947;">
+        	<a href="#" style="width: 87px;line-height: 30px;text-align: center;background:#252947;color:white;">首页 <span class="sr-only">(current)</span>
+            </a>
+        </li>
+        <li><a href="" style="line-height: 30px;">博雅游戏</a></li>
+        <li><a href="HTML/boya-news.html" style="line-height: 30px;">博雅新闻</a></li>
+        <li><a href="#" style="line-height: 30px;">关于我们</a></li>
+        <li><a href="HTML/call-center.html" style="line-height: 30px;border-bottom: 1px solid #191D3A;">客服中心</a></li>
+        <li><a href="#" style="line-height: 30px;">投资者关系</a></li>
+        <li class="hidden-lg"><a href="" style="line-height: 30px;">加入我们</a></li>
+        <li class="hidden-lg"><a href=""  style="line-height: 30px;">中文</a></li>
+        <li class="hidden-lg"><a href=""  style="line-height: 30px;">EN</a></li>
+      </ul>
+
+	  <button class="visible-lg-inline-block NAV" style="background: #191D3A;outline: none;border:none;z-index: 50;">
+         <a href="" style="text-decoration: none;line-height:30px;height:34px;color: #fff;text-align: center;" class="joinus">加入我们
+         </a>
+      </button>
+
+      <ul class="nav navbar-nav navbar-right right hidden-xs NAV">
+        <li><a href="#" style="margin-right:-10px;line-height: 30px;border-left:none;border-right:none;color:#38b774">中文</a></li>
+        <li><a href="#" style="line-height: 30px;border-left:none;border-right:none;">EN</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- 轮播图 -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active one">
+      <img src="image/lunbo-1.jpg">
+      <div class="carousel-caption"></div>
+    </div>
+    <div class="item one">
+      <img src="image/lunbo-2.png">
+      <div class="carousel-caption"></div>
+    </div>
+	<div class="item one">
+      <img src="image/lunbo-3.jpg">
+      <div class="carousel-caption"></div>
+    </div>
+	<div class="item one">
+      <img src="image/lunbo-4.png">
+      <div class="carousel-caption"></div>
+    </div>
+	<div class="item one">
+      <img src="image/lunbo-5.jpg">
+      <div class="carousel-caption"></div>
+    </div>
+  </div>
+</div>
+<!-- 四合一轮播 -->
+<div class="container" style="margin-top: 50px;border-bottom: 1px solid #dbe1e7;padding-bottom:20px;">
+	<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators vdi" style="bottom: -40px;width: 54px;left: 78%;background: #fff;">
+	    <li data-target="#carousel-example-generic1" data-slide-to="0" class="active" style="background: #38b774"></li>
+	    <li data-target="#carousel-example-generic1" data-slide-to="1" style="background: #38b774"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active" style="background:#fff;">
+			<div class="row Row">
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="image/video.jpg" width="343">
+						<div class="caption over visible-lg">
+							<h5>博雅互动宣传视频</h5>
+							<p><span>点击播放
+								<button type="button" class="btn" aria-label="Left Align" style="background:none;">
+				<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+				</button></span> </p>
+						</div>
+						<div class="caption over hidden-lg">
+							<h5  style="font-size:15px;padding: 5px 0 10px 0;text-align:center;color:#252947;font-weight: 1000;">博雅互动宣传视频</h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="image/vedio.2.jpg" width="343">
+						<div class="caption over visible-lg">
+							<h5>BPT宣传片</h5>
+							<p><span>点击播放<button type="button" class="btn" aria-label="Left Align" style="background:none;">
+				<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+			</button></span>
+							</p>
+						</div>
+						<div class="caption over hidden-lg">
+							<h5  style="font-size:15px;padding: 5px 0 10px 0;text-align:center;color:#252947;font-weight: 1000;">BPT宣传片</h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="image/vedio.3.jpg" width="343">
+						<div class="caption over visible-lg">
+							<h5>麻将全集</h5>
+							<p><span>MAHJONG GAMES<button type="button" class="btn" aria-label="Left Align" style="background:none;">
+				<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+			</button></span> </p>
+						</div>
+						<div class="caption over hidden-lg">
+							<h5  style="font-size:15px;padding: 5px 0 10px 0;text-align:center;color:#252947;font-weight: 1000;">麻将全集</h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="image/video.4.jpg" width="343">
+						<div class="caption over visible-lg">
+							<h5>中国象棋</h5>
+							<p><span>CHINESE CHESS OF BOYAA<button type="button" class="btn" aria-label="Left Align" style="background:none;">
+				<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+			</button></span> </p>
+						</div>
+						<div class="caption over hidden-lg">
+							<h5  style="font-size:15px;padding: 5px 0 10px 0;text-align:center;color:#252947;font-weight: 1000;">中国象棋</h5>
+						</div>
+					</a>
+				</div>
+			</div>
+	      	<div class="carousel-caption"></div>
+	    </div>
+	    <div class="item"  style="background:#fff;">
+			<div class="row Row">
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="image/video.5.jpg" width="343">
+						<div class="caption over visible-lg">
+							<h5>博雅棋牌</h5>
+							<p><span>BOYAA CHESS
+			<button type="button" class="btn" aria-label="Left Align" style="background:none;">
+				<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+			</button>
+							</span> </p>
+						</div>
+						<div class="caption over hidden-lg">
+							<h5  style="font-size:15px;padding: 5px 0 10px 0;text-align:center;color:#252947;font-weight: 1000;">博雅棋牌</h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="image/video.6.jpg" width="343">
+						<div class="caption over visible-lg">
+							<h5>四川麻将</h5>
+							<p><span>sichuan mahjong<button type="button" class="btn" aria-label="Left Align" style="background:none;">
+				<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+			</button></span> </p>
+						</div>
+						<div class="caption over hidden-lg">
+							<h5  style="font-size:15px;padding: 5px 0 10px 0;text-align:center;color:#252947;font-weight: 1000;">四川麻将</h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="image/video.7.jpg" width="343">
+						<div class="caption over visible-lg">
+							<h5>四川棋牌</h5>
+							<p><span>boyaa szechwan game<button type="button" class="btn" aria-label="Left Align" style="background:none;">
+				<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+			</button></span> </p>
+						</div>
+						<div class="caption over hidden-lg">
+							<h5  style="font-size:15px;padding: 5px 0 10px 0;text-align:center;color:#252947;font-weight: 1000;">四川棋牌</h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="image/video.8.jpg" width="343">
+						<div class="caption over visible-lg">
+							<h5>四人斗地主</h5>
+							<p><span>FOUR LANDLORDS<button type="button" class="btn" aria-label="Left Align" style="background:none;">
+				<span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+			</button></span> </p>
+						</div>
+						<div class="caption over hidden-lg">
+							<h5  style="font-size:15px;padding: 5px 0 10px 0;text-align:center;color:#252947;font-weight: 1000;">四人斗地主</h5>
+						</div>
+					</a>
+				</div>
+			</div>
+	      	<div class="carousel-caption"></div>
+	    </div>
+	    <div class="page-header SMALL hidden-lg" style="background: #f0f0f0;text-align: center;margin: 0px;padding:20px 0;">
+	    	<!-- hidden-lg -->
+  			<h3 style="margin:0px;">更多游戏</h3>
+		</div>
+	  </div>
+	</div>
+</div>
+<!-- news -->
+<div class="row" style="background:url('image/indexmainbg.jpg');margin-bottom: 25px;">
+	<div class="container" style="margin-top:50px;">
+		<div class="row">
+			<div class="col-sm-6 col-md-6 news" style="padding: 0px;">
+				<div class="thumbnail news">
+					<div class="caption" style="margin-top:20px;">
+						<img src="image/bynewsbg.jpg">
+						<button type="button" class="btn" style="position: absolute;top:85px;
+						left:263px;color: #30bd72;border: 1px solid #33b972;background: #fff;"> MORE <sup>+</sup></button>
+						<div class="BOX" style="text-align: center;">
+							<p style="font-size: 14px;">
+								<a href="">
+									<span style="float: left;color: #444866;">博雅互动获2017中国融资大奖“年度飞跃企业创新奖”</span>
+								</a>
+								<span class="time">01 / 09</span>
+							</p>
+							<p>
+								<a href="">
+									<span style="float: left;color: #444866;">昆明理工大学问鼎2017博雅象棋高校联盟争霸赛</span>
+								</a>
+								<span class="time">12 / 19</span>
+							</p>
+							<p>
+								<a href="">
+									<span style="float: left;color: #444866;">博雅互动云南高校象棋争霸赛总决赛打响</span>
+								</a>
+								<span class="time">12 / 18</span>
+							</p>
+							<p>
+								<a href="">
+									<span style="float: left;color: #444866;">博雅互动公布2017第三季度业绩，打造亚洲具影响力赛事品牌...</span>
+								</a>
+								<span class="time">11 / 27</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-6 news1" style="padding:0px;">
+				<div class="thumbnail news1">
+					<img src="image/byhrbg3.jpg" width="570" height="310">
+					<button type="button" class="btn" style="position: absolute;top:35px;
+						left:100px;color: #fff;padding: 0px;background:none;">
+						<h2 style="margin-bottom: 0">社会招聘</h2>
+						<p style="margin-bottom: 0">BOYAA JOBS</p>
+					</button>
+					<button type="button" class="btn" style="position: absolute;top:85px;
+						left:263px;color: #fff;border: 1px solid #fff;background: #33b972;"> MORE <sup>+</sup></button>
+					<div class="box2" style="margin">
+						<div class="page-header" style="color: #fff;margin: -30px 0 20px;font-weight: bold;border:none">
+							<h5>社会招聘岗位：</h5>
+						</div>
+						<div class="page-header" style="margin: -30px 0 30px;padding-bottom: 18px;">
+							<div>PHP开发工程师</div>
+						</div>
+						<div class="page-header" style="margin: -30px 0 30px;padding-bottom: 18px;">
+							<div>C++开发工程师</div>
+						</div>
+						<div class="page-header" style="margin: -30px 0 30px;padding-bottom: 18px;">
+							<div>LUA开发工程师</div>
+						</div>
+						<div class="page-header" style="margin: -30px 0 30px;padding-bottom: 18px;">
+							<div>大数据开发工程师</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--last-->
+<div class="row" style="background: #191D3A;">
+	<div class="container visible-lg" style="margin-bottom: 30px;">
+		<div class="page-header" style="margin:12px 0;border:none">
+			<div style="color: #6c6e7e;">
+				<small>网站地图</small>
+				&nbsp;|&nbsp;
+				<small>免费声明</small>
+				&nbsp;|&nbsp;
+				<small>监督举报</small>
+			</div>
+		</div>
+		<div class="page-header" style="margin:12px 0;border:none">
+			<div style="color: #6c6e7e;">
+				<small>Copyright © 2004 - 2019 博雅互动(Boyaa Interactive)</small>
+				<a style="color: #6c6e7e;">粤ICP备05062536号</a>
+			</div>
+		</div>
+		<div class="page-header" style="margin:12px 0;border:none">
+			<div style="color: #6c6e7e;">
+				<small>  网络文化经营许可证：粤网文[2015]1991-405号 | 互联网出版许可证：新出网证（粤）字062号 | 增值电信业务经营许可证：粤B2-20110513</small>
+				<small><a href=""><img src="image/govIcon.gif" width="36" height="50"></a></small>
+			</div>
+		</div>
+	</div>
+	<!-- 小屏幕的版权 -->
+	<footer class="phone hidden-lg" style="text-align: center;color: #abafd0;">
+		<div class="foot" style="padding: 25px 0">
+			<p class="p1">
+				<a href="index.html" style="color: #2dc271;">博雅官网</a>&nbsp;.&nbsp;
+				<a href="game.html">游戏下载</a>&nbsp;.&nbsp;
+				<a href="announce.html">免责声明</a>&nbsp;.&nbsp;
+				<a href="jubao.html">监督举报</a>
+			</p>
+			<p class="p2">Copyright © 2004 - 2019 博雅互动(Boyaa Interactive)</p>
+			<p class="p2">网络文化经营许可证：粤网文[2015]1991-405号</p>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

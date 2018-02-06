@@ -1,0 +1,145 @@
+*{margin: 0;padding: 0;text-decoration: none;list-style: none;}
+.box{width: 100%;}
+.kuang{width: 100%;height: 36px;background: #f8e3df;}
+.auto{width: 1180px;margin: 0 auto;}
+.left{width: 210px;height:36px;float: left;font-size: 13px;text-align: center;line-height:36px;}
+.left a{width: 70px;margin: 0 2px;color: black;}
+.fiveQ{width: 12px;height: 16px;float: left;background: url("../image/锁.png")no-repeat left;margin: 8px 10px;}
+.right{width: 392px;height:36px;float: right;font-size: 13px;text-align: center;line-height:36px;position: relative;}
+.right a{color: #333;}
+.fiveF{width: 105px;height:34px;float: left;}
+.fiveF:hover{background: #fff; border: 1px solid #fdb2a4; border-bottom: none;}
+.five1-1{width: 240px;height:67px;border: 1px solid #fdb2a4;position:absolute;top: 34px;left: 0;background: white;border-top: none;display:none;z-index: 1;}
+.fiveF:hover .five1-1{display: block;/*显示*/}
+
+.five2{width: 68px;float: left;}
+.five3{width: 73px;float: left;margin-left: 10px;}
+.five3:hover{background: #fff;border: 1px solid #fdb2a4;border-bottom:none;}
+.five3-1{width: 73px;border: 1px solid #fdb2a4;position:absolute;top: 34px;left: 183px;background: white;display:none;border-top: none;z-index: 1;}
+.five3-1-a{width: 100%;height: 21px;line-height: 21px;display: block;
+	color: #686767;padding-left: 6px;text-align: left;}
+.five3-1-a:hover{color:red;}
+.five3:hover .five3-1{display: block;}
+.ncej{width: 5px;height: 4px;float: right;margin-top: 14px;margin-right:5px;background: url("../image/daosanjiao.png");}
+.five4{width: 58px;float: left;margin-left:5px;}
+.five5{width:58px;float: right;border:green solid 1px;}
+.five5:hover{background: #fff;border: 1px solid #fdb2a4;border-bottom:none;}
+.five5-1{width:232px;height: 156px;border: 1px solid #fdb2a4;position:absolute;top: 34px;right: 0px;background: white;display:none;z-index: 1;}
+.five5:hover .five5-1{display: block;}
+
+/*第二个框*/
+.erkuang{width: 100%;height: 95px;background:url("../image/beijin.jpg");background-size: 100% 100%;}
+.erzuo{width:163px;height: 95px;float: left;}
+.erzuo a{width: 128px;height: 28px;}
+.IMG{margin-top: 35px;float:right;}
+.eryou{width:295px ;height: 95px;float: right;}
+.eryouxia{width: 100%;height: 60px;margin-top:30px;font-size: 12px;}
+.xiazuo{width: 198px;height: 32px;float: left;border: #beb7b7 solid 1px;}
+.xiazuo input{width:156px;height: 30px;float: left;color: #c7bebe;text-indent: 1em;border: none;}
+.xiazuo.Shou{width: 30px;height: 32px;float:right;float: }
+.xiayou{width: 80px;height: 32px;float: right;border: #beb7b7 solid 1px;background:white;color:#666666;
+text-align: center;line-height: 32px;}
+.xiayou a:hover{color: red;}
+/*灰框*/
+.sankuang{width: 100%;height: 33px;background:#909090;}
+.dengF{width:97px;height: 33px;text-align: center;line-height: 33px;float: left;}
+.dengE{width: 194px;height: 33px;float: left;}
+.dengF a{color: #fff;}
+.dengF:hover{background: #fdb2a4;}
+/*轮播大图*/
+.sikuang{width: 100%;height: 600px;}
+.sikuang img{width: 100%;height: 100%;}
+/*第五个框*/
+.wukuang{width: 100%;height: 498px;}
+.Wk-1{width: 100%;height: 443px;margin: 50px 0;}
+.g_diy_shw{width: 580px;height: 443px;float: left;background: #f7f7f7;}
+.u_st_tlt{font-weight:normal;text-align:center;font-family: Arial, "宋体";width: 100%;height:34px;font-size: 26px;margin: 0;padding: 45px 0 27px;}
+.g_diy_shw_focus{background: green;width: 352px;height: 190px;margin: 24px auto 0;overflow: hidden;position: relative;z-index: 0;}
+.u_pnk_btn{background: #f6827a;color: #fff;text-align: center;font-size: 12px;width: 204px;height: 34px;line-height: 34px;display: block;margin: 0px auto;margin-bottom: 12px;}
+.g_diy_shw_pic{float: right;width: 578px;height: 442px;}
+/*第六个框*/
+.liukuang{width: 100%;height: 827px;}
+.liukuang-{width: 100%;height: 827px;border:red solid 1px;}
+.u_st_tlt-{width: 100%;height: 28px;color: #000;background:white;text-align: center;line-height: 28px;font-family: Arial, "宋体";}
+.g_tab_wp-{background: #feb8ae;text-align: center;margin-top: 45px;}
+.a1{width: 106px;height:37px;color: #fff;font-size: 12px;line-height: 37px;text-align: center;margin: 0 53px;}
+.LIU{width:100%;height:696px;margin-top: 20px;}
+.LIUleft{width:700px;height:100%;padding-right: 15px;float: left;}
+.Linf{width: 700px;height: 442px;margin-top: 10px;}
+.LIUright{width:464px;height: 696px;float: right;}
+/*第七个框*/
+.qikuang{width: 100%;height: 321px;}
+.auto-1{width: 1180px;margin:0 auto;border: yellow solid 1px;}
+.qik-1{width: 100%;height: 266px;border: green solid 1px;margin-top:55px; }
+.qik-1-{text-align:center;font-family: Arial, "宋体";width: 100%;height:34px;font-size: 26px;margin: 0;padding: 0 0 27px;}
+.f_rng_focus_wp{width: 100%;height: 193px;margin: 10px 0 0;position: relative;}
+.f_rng_focus{height: 193px;overflow: hidden;position: absolute;}
+.f_rng_focus li{width: 240px;height: 193px;float: left;padding: 0 17px;}
+.f_rng_focus ul{width: 100%;height: 193px;}
+/*第八个框*/
+.bakuang{width: 100%;background: #f5f5f5;}
+.bk-1{width:100%;height: 77px;padding: 50px 0;text-align: center;}
+.bk-1 a{line-height: 20px;text-align:center;color: #b7b7b7;margin-left:19px;float: left;}
+.shop1 i{width: 104px;height: 49px;margin-bottom: 8px;display: block;background: url("../image/lunkuo.jpg") no-repeat;}
+.shop2 i{width: 104px;height: 49px;margin-bottom: 8px;background-position:-104px 0;display: block;background: url("../image/lunkuo.jpg") no-repeat;}
+.shop3 i{width: 98px;height: 49px;margin-bottom: 8px;background-position:-208px 0;display: block;background: url("../image/lunkuo.jpg") no-repeat;}
+.shop4 i{width: 91px;height: 49px;margin-bottom: 8px;background-position:-104 0;display: block;background: url("../image/lunkuo.jpg") no-repeat;}
+.shop5 i{width: 92px;height: 49px;margin-bottom: 8px;background-position:-104 0;display: block;background: url("../image/lunkuo.jpg") no-repeat;}
+.shop6 i{width: 105px;height: 49px;margin-bottom: 8px;background-position:-104 0;display: block;background: url("../image/lunkuo.jpg") no-repeat;}
+.shop7 i{width: 86px;height: 49px;margin-bottom: 8px;background-position:-104 0;display: block;background: url("../image/lunkuo.jpg") no-repeat;}
+.shop8 i{width: 91px;height: 49px;margin-bottom: 8px;background-position:-104 0;display: block;background: url("../image/lunkuo.jpg") no-repeat;}
+.shop9 i{width: 109px;height: 49px;margin-bottom: 8px;background-position:-104 0;display: block;background: url("../image/lunkuo.jpg") no-repeat;}
+.shop10 i{width: 110px;height: 49px;margin-bottom: 8px;background-position:-104 0;display: block;background: url("../image/lunkuo.jpg") no-repeat;}
+
+/*第九个框*/
+.jiukuang{width: 100%;height:646px;background: #230;}
+/*第十个框 小鸟与它的故事  包括上下的小白框*/
+.shikuang{width: 100%;height: 376px;background: #210;}
+/**/
+.shiyi{width: 100%;height: 77px;background:#220;}
+/*动图包括盐城体验中心  包括下面小白框*/
+.shier{width: 100%;height: 585px;background:red;}
+/**/
+.shisan{width: 100%;height: 456px;background:green;}
+/*最后一个大框*/
+.shisi{width: 100%;height: 550px;background:#fdf2ec;}
+.shisishang{width: 100%;height: 66px;}
+.shangkuang1{width: 201px;height: 66px;float: left;background:url("../image/yipaidu.jpg");}
+.shangkuang2{width: 195px;height: 66px;float: left;background:url("../image/yipaidu.jpg");background-position:-201px 0;}
+.shangkuang3{width: 227px;height: 66px;float: left;background:url("../image/yipaidu.jpg");background-position:-396px 0;}
+.shangkuang4{width: 197px;height: 66px;float: left;background:url("../image/yipaidu.jpg");background-position:-623px 0;}
+.shangkuang5{width: 198px;height: 66px;float: left;background:url("../image/yipaidu.jpg");background-position:-820px 0;overflow: hidden;}
+.shangkuang6{width: 162px;height: 66px;float: left;background:url("../image/yipaidu.jpg");background-position:-1018px 0;overflow: hidden;}
+/*第二个*/
+.shisizhong{width: 100%;height: 160px;}
+.Lleft{width: 85px;height: 90px;background:url("../image/logo.jpg");float: left;margin-left:30px;margin-top: 44px; }
+.Lcenter{width: 720px;height: 110px;float: left;margin-left:82px;margin-top: 37px;}
+.Ul{width: 144px;height: 123px;float: left;}
+.Ul li span{width: 96px;height: 23px;color: #666666;font-size: 12px;text-align: left;}
+.Ul li a{width: 96px;line-height: 22px;color: #999999;text-align: left;font-size: 12px;}
+.Ul li a:hover{color: red;}
+.U2{width: 144px;height: 103px;float: left;}
+.U2 li span{width: 96px;height: 23px;color: #666666;font-size: 12px;text-align: left;}
+.U2 li a{width: 96px;line-height: 22px;color: #999999;text-align: left;font-size: 12px;}
+.U2 li a:hover{color: red;}
+.Llast{width: 214px;height: 120px;float: right;margin-top: 30px;margin-left: 6px;background: url("../image/erweima.jpg") no-repeat;position: relative;
+}
+/*电话框*/
+.Sank{width: 100%;height: 102px;padding: 21px 0;}
+.Sankd{width: 488px;height: 60px;background:url("../image/dianhua.jpg");margin-left: 365px;display: block;}
+/*两排的服务及赞助*/
+.wangzhan{width: 100%;height: 36px;color: #999;font-size: 12px;overflow: hidden;margin: 0 auto;line-height: 36px;text-align: center;}
+.wangzhan a{line-height: 33px;margin: 0;padding: 0;color: #999;font-size: 12px;}
+.wangzhan a:hover{color: red;}
+.wangzhan span{padding: 0 8px 0 10px;}
+.Shang{width: 100%;height: 14px;text-align: center;color: #999;font-size: 12px;}
+/*滚动部分*/
+.xiagd{width: 950px;height: 25px;margin: 0 auto;text-align: center;line-height:25px;color: #999;font-size: 12px;overflow: hidden;}
+.xiagd li a{font-size: 12px;color: #999;}
+.xiagd li a:hover{color: red;}
+.xiagd li span{padding: 0;}
+/*底下五个图标*/
+.Xt{width: 572px;height: 35px;margin: 13px auto;}
+.T3{width:110px ;height: 35px;float: left;}
+.T2{width:116px ;height: 35px;float: left;}
+.T1{width:115px ;height:35px;float: left;}
