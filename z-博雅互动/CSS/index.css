@@ -18,6 +18,9 @@
 .BOX p a span:hover{color: #38b774!important;}
 
 
+/*轮播的小圆圈的问题,覆盖原先的样式*/
+.Vdi .active{background-color: #38b774!important;}
+.Vdi li{background-color: #ccc!important;}
 
 /*.navbar-header{height: 50px;}*/
 .NAV li{z-index: 50;border-bottom: 1px solid #252947;}
